@@ -1,0 +1,8 @@
+<div class="editusers">
+    <div class="input">
+        <input type="text" [(ngModel)]="clearInput" #newUser class="form-control" placeholder="new user"
+            aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <button type="button" class="btn btn-success" (click)="add(newUser.value)">Add</button>
+    <button type="button" class="btn btn-danger" (click)="remove()">Remove</button>
+</div>

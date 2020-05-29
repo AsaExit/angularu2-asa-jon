@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    top: 200px;
+    left: 39.9%;
+    max-width: 270px;
+    border: 2px solid rgb(184, 163, 187);
+    border-radius: 4px;
+    padding: 15px;
+    margin: 0px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+p {
+    margin: 0px;
+}
+
+.grey {
+    background-color: silver;
+    color: rgb(12, 12, 12);
+    font-weight: bolder;
+    margin-bottom: 3px;
+}

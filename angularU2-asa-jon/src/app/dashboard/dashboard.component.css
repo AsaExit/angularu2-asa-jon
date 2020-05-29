@@ -1,0 +1,7 @@
+.restricted {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}

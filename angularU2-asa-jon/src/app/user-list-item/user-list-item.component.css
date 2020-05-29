@@ -1,0 +1,13 @@
+.userListItems {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1.5px solid rgb(66, 66, 66);
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

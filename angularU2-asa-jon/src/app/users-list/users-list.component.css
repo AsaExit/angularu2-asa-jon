@@ -1,0 +1,19 @@
+.userlist {
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    width: 250px;
+    background: rgba(59, 59, 58, 0.911);
+    border-radius: 2px;
+    border-color: 1px black;
+    padding: 20px;
+}
+
+.btn {
+    position: relative;
+    width: 100%;
+}
+
+ul {
+    padding: 0px;
+}

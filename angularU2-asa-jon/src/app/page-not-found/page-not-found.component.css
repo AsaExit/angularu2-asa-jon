@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    top: 100px;
+    color: rgba(174, 252, 29, 0.911);
+    background: rgba(75, 75, 75, 0.849);
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 12px;
+    height: 400px;
+}
+
+#center {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}

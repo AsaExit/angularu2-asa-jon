@@ -1,0 +1,9 @@
+<ng-container *ngIf="checkUser() == true; then thenTemplate; else elseTemplate"></ng-container>
+<ng-template #thenTemplate>
+    <app-users-list [users]="userList"></app-users-list>
+    <app-edit-users (addUserEvent)="addUserFunc($event)" (removeUserEvent)="removeUserFunc($event)"></app-edit-users>
+</ng-template>
+
+<ng-template #elseTemplate>
+    <p class="restricted"> Please log in to see this content! </p>
+</ng-template>
